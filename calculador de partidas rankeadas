@@ -1,0 +1,39 @@
+let partidasRankeadas = 0
+ while(energetico <3){
+  console.log("Tomou um energético")
+  energetico++
+  }
+console.log("Aumentou o foco e a consentração")
+
+let partidasPatente = 85 - 2
+ switch (partidasPatente){
+    case 9 - 5:
+ console.log("Ferro")
+
+   case 30 - 7:
+console.log("Prata")
+
+  case 85 - 2:
+console.log("Diamante")
+  break
+
+  case 99 - 1:
+cosole.log("Lendário")
+  }
+
+let quantidadeDeVitoria = calculadoraRankeada(85,2)
+ console.log("O resultado é " + quantidadeDeVitoria)
+
+function calculadoraRankeada (vitoria,derrota){
+  let somaRankeada = vitoria - derrota
+    return somaRankeada
+    }
+
+let patenteFinal = patentes("ferro prata diamante lendário")
+ console.log("Minha patente é " + patenteFinal)
+
+function patentes (patente,split){
+  let patentesRankeada = patente.split(" ")[2]
+    return patentesRankeada
+    }
+console.log("O Herói têm de saldo de vitórias " + quantidadeDeVitoria + " e está no nível de " + patentefinal)
